@@ -19985,6 +19985,24 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
+    name: "odm_lib_rfsa_adsp_libc++_so_1",
+    filename: "libc++.so.1",
+    owner: "realme",
+    src: "proprietary/odm/lib/rfsa/adsp/libc++.so.1",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "odm_lib_rfsa_adsp_libc++abi_so_1",
+    filename: "libc++abi.so.1",
+    owner: "realme",
+    src: "proprietary/odm/lib/rfsa/adsp/libc++abi.so.1",
+    relative_install_path: "adsp",
+    device_specific: true,
+}
+
+prebuilt_rfsa {
     name: "odm_lib_rfsa_adsp_libktvdrc_so",
     filename: "libktvdrc.so",
     owner: "realme",

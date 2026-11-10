@@ -49,8 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
     vendor/realme/samurai/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
     vendor/realme/samurai/proprietary/odm/etc/wifi/bin_version_realme:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version_realme \
-    vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libc++.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++.so.1 \
-    vendor/realme/samurai/proprietary/odm/lib/rfsa/adsp/libc++abi.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++abi.so.1 \
     vendor/realme/samurai/proprietary/odm/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b00 \
     vendor/realme/samurai/proprietary/odm/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b01 \
     vendor/realme/samurai/proprietary/odm/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b02 \
@@ -1056,6 +1054,8 @@ PRODUCT_PACKAGES += \
     odm_lib_rfsa_adsp_libarcsoft_dualcam_refocus_skel_so \
     odm_lib_rfsa_adsp_libarcsoft_hdrplus_hvx_5221_skel_so \
     odm_lib_rfsa_adsp_libarcsoft_psn_hvx_5221_skel_so \
+    odm_lib_rfsa_adsp_libc++_so_1 \
+    odm_lib_rfsa_adsp_libc++abi_so_1 \
     odm_lib_rfsa_adsp_libktvdrc_so \
     odm_lib_rfsa_adsp_libktveffect_so \
     odm_lib_rfsa_adsp_libktveq_so \
