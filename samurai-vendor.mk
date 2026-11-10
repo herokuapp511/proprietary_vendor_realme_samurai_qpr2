@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/samurai/proprietary/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/samurai/proprietary/odm/etc/izat.conf:$(TARGET_COPY_OUT_ODM)/etc/izat.conf \
     vendor/realme/samurai/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
+    vendor/realme/samurai/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/samurai/proprietary/odm/etc/samsung1024_sofef03f_m_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_sofef03f_m_eyeprotect_data.xml \
     vendor/realme/samurai/proprietary/odm/etc/samsung1024_sofef03f_m_srgb_eyeprotect_data.xml:$(TARGET_COPY_OUT_ODM)/etc/samsung1024_sofef03f_m_srgb_eyeprotect_data.xml \
     vendor/realme/samurai/proprietary/odm/etc/sap.conf:$(TARGET_COPY_OUT_ODM)/etc/sap.conf \

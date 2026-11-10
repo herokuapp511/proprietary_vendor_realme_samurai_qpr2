@@ -18448,7 +18448,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    device_specific: true,
+    soc_specific: true,
 }
 
 cc_prebuilt_library_shared {
