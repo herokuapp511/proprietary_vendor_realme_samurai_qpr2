@@ -434,7 +434,6 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     audio.bluetooth_qti.default \
-    sound_trigger.primary.msmnile \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vulkan.adreno \
     libC2D2 \
