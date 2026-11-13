@@ -577,12 +577,6 @@ PRODUCT_PACKAGES += \
     libwfdutils_proprietary \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    android.hardware.camera.provider@2.4-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-impl \
     com.qti.sensor.imx319 \
     com.qti.sensor.imx471 \
     com.qti.sensor.ov02a1b \
